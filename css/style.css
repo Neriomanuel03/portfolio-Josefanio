@@ -4,7 +4,7 @@
   --cor-branca: #fff;
   --cor-azul-hover: #1d4ed8;
   --cor-texto: #979db2;
-  --cor-titulo: #f3b740;
+  --cor-titulo:  rgb(238, 238, 4);
   --nav-height: 80px;
 }
 
@@ -269,7 +269,7 @@ nav {
 
   background-color: rgba(20, 12, 72, 0.03);
   backdrop-filter: blur(20px); /* desfoca o que passa atrás do menu */
-  box-shadow: 0 1px 2px rgba(41, 110, 185, 0.883);
+  box-shadow: 0 1px 2px  rgb(238, 238, 4);
   width: 220px;
   height: 310px;
   border-radius: 10%;

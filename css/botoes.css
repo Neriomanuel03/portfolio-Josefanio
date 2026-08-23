@@ -23,7 +23,7 @@
     
     transition: 0.3s ease;
     white-space: nowrap; /* impede o texto do botão de quebrar em 2 linhas */
-    height: 30px;
+    height: 40px;
 }
 
 .botao:hover{
@@ -42,12 +42,12 @@
     font-size: 14px;
     font-weight: 500;
     padding: 8px 25px;
-    border: 1px solid #5a5f6b;
+    border: 1px solid rgb(238, 238, 4);
     border-radius: 8px;
      font-size: 14px;
     font-weight: 500;
     
-    height: 30px;
+    height: 40px;
     display: inline-flex;
     align-items: center;
     transition: 0.3s ease;
