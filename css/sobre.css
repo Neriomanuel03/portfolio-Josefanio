@@ -56,8 +56,10 @@
 }
 
 .image-pessoal img {
+        filter:grayscale(500%);
+
     width: 330px;
-    height: 360px;
+    height: 460px;
 
     object-fit: cover;
 

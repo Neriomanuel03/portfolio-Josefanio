@@ -4,7 +4,7 @@
   --cor-branca: #fff;
   --cor-azul-hover: #1d4ed8;
   --cor-texto: #979db2;
-  --cor-titulo: #6495ed;
+  --cor-titulo: #f3b740;
   --nav-height: 80px;
 }
 
@@ -223,7 +223,7 @@ nav {
 .texto-digitado span {
   font-size: 30px;
   font-family: "Dancing Script", sans-serif;
-  color: cornflowerblue;
+  color: var(--cor-titulo);
   display: flex;
   align-items: center;
   flex-direction: row;
