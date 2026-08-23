@@ -69,7 +69,7 @@ nav {
   color: var(--cor-titulo);
 }
 
-/* linha azul que "cresce" embaixo do link quando passa o mouse */
+/* linha que "cresce" embaixo do link quando passa o mouse */
 
 .menu-links ul li::after {
   content: "";
@@ -221,9 +221,9 @@ nav {
 }
 
 .texto-digitado span {
+  color: var(--cor-branca);
   font-size: 30px;
   font-family: "Dancing Script", sans-serif;
-  color: var(--cor-titulo);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -266,14 +266,10 @@ nav {
 
 .img-pessoal img {
   align-items: flex-start;
-
-  background-color: rgba(20, 12, 72, 0.03);
-  backdrop-filter: blur(20px); /* desfoca o que passa atrás do menu */
-  box-shadow: 0 1px 2px  rgb(238, 238, 4);
-  width: 220px;
-  height: 310px;
+  width: 270px;
+  height: 315px;
   border-radius: 10%;
-  object-fit: cover; /* Garante que a foto não fique distorcida */
+  object-fit: cover; /*Garante que a foto não fique distorcida */
   max-width: 100%;
 }
 

@@ -18,7 +18,7 @@ gsap.from("#sobre", {
   ease: "power3.out"
 });
 
-gsap.from(".contacto", {
+gsap.from("#projectos", {
   scrollTrigger: {
     trigger: ".projectos",
     start: "top 80%"

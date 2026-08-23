@@ -1,33 +1,24 @@
-/* ========================================
-   SECÇÃO SOBRE MIM
-======================================== */
-
 #sobre {
     background-color: var(--segunda-cor);
     padding: 65px 0 70px;
 }
 
 
-/* ========================================
-   TÍTULO "SOBRE MIM"
-======================================== */
-
+/* TÍTULO "SOBRE MIM"*/
 .tema {
     text-align: center;
     margin-bottom: 55px;
 }
 
 .tema h1 {
-    color: var(--cor-titulo);
+    color: var(--cor-texto);
     font-size: 36px;
     font-weight: 700;
     margin: 0;
 }
 
 
-/* ========================================
-   CONTAINER DA SECÇÃO
-======================================== */
+/* CONTAINER DA SECÇÃO*/
 
 .container-sobre {
     width: 100%;
@@ -44,9 +35,7 @@
 }
 
 
-/* ========================================
-   IMAGEM PESSOAL
-======================================== */
+/* IMAGEM PESSOAL*/
 
 .image-pessoal {
     flex: 0 0 330px;
@@ -65,16 +54,11 @@
 
     border-radius: 28px;
 
-    border: 1px solid rgb(238, 238, 4);
-    box-shadow:
-        0 8px 25px rgba(0, 0, 0, 0.25),
-        0 0 0 1px rgba(100, 149, 237, 0.08);
+
 }
 
 
-/* ========================================
-   CONTEÚDO DA DIREITA
-======================================== */
+/* CONTEÚDO DA DIREITA*/
 
 .conteudo {
     flex: 1;
@@ -85,7 +69,7 @@
 /* "Quem sou eu?" */
 
 .titulo-sobre {
-    color: var(--cor-titulo);
+    color: var(--cor-texto);
 
     font-size: 16px;
     font-weight: 500;
@@ -125,9 +109,7 @@
 }
 
 
-/* ========================================
-   INFORMAÇÕES PESSOAIS
-======================================== */
+/*INFORMAÇÕES PESSOAIS*/
 
 .informacoes {
     width: 100%;
@@ -145,7 +127,7 @@
 /* Título "Informações pessoais" */
 
 .informacoes > h1 {
-    color: var(--cor-titulo);
+    color: var(--cor-texto);
 
     font-size: 25px;
 
@@ -184,9 +166,7 @@
 }
 
 
-/* ========================================
-   RESPONSIVIDADE
-======================================== */
+/* RESPONSIVIDADE feita por IA */
 
 @media (max-width: 900px) {
 
@@ -217,9 +197,7 @@
 }
 
 
-/* ========================================
-   TELEMÓVEIS
-======================================== */
+/*TELEMÓVEIS responsividade */
 
 @media (max-width: 600px) {
 
