@@ -1,0 +1,255 @@
+/* ========================================
+   SECÇÃO SOBRE MIM
+======================================== */
+
+#sobre {
+    background-color: var(--segunda-cor);
+    padding: 65px 0 70px;
+}
+
+
+/* ========================================
+   TÍTULO "SOBRE MIM"
+======================================== */
+
+.tema {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.tema h1 {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* ========================================
+   CONTAINER DA SECÇÃO
+======================================== */
+
+.container-sobre {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    gap: 70px;
+
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   IMAGEM PESSOAL
+======================================== */
+
+.image-pessoal {
+    flex: 0 0 330px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.image-pessoal img {
+    width: 330px;
+    height: 360px;
+
+    object-fit: cover;
+
+    border-radius: 28px;
+
+    border: 1px solid rgba(100, 149, 237, 0.25);
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.25),
+        0 0 0 1px rgba(100, 149, 237, 0.08);
+}
+
+
+/* ========================================
+   CONTEÚDO DA DIREITA
+======================================== */
+
+.conteudo {
+    flex: 1;
+    min-width: 0;
+}
+
+
+/* "Quem sou eu?" */
+
+.titulo-sobre {
+    color: var(--cor-titulo);
+
+    font-size: 16px;
+    font-weight: 500;
+
+    margin: 0 0 12px;
+}
+
+
+/* Título principal */
+
+.conteudo > h1 {
+    color: #aebbd0;
+
+    font-size: 32px;
+    font-weight: 500;
+
+    line-height: 1.2;
+
+    margin: 0 0 12px;
+}
+
+
+/* Texto */
+
+.conteudo > p {
+    color: var(--cor-texto);
+
+    font-size: 14px;
+
+    line-height: 1.45;
+
+    text-align: justify;
+
+    margin: 0 0 18px;
+
+    max-width: 760px;
+}
+
+
+/* ========================================
+   INFORMAÇÕES PESSOAIS
+======================================== */
+
+.informacoes {
+    width: 100%;
+
+    background-color: #05060b;
+
+    border-radius: 14px;
+
+    padding: 14px 18px;
+
+    box-sizing: border-box;
+}
+
+
+/* Título "Informações pessoais" */
+
+.informacoes > h1 {
+    color: var(--cor-titulo);
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    margin: 0 0 10px;
+}
+
+
+/* Dados pessoais */
+
+.informacoes-pessoais {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.informacoes-pessoais p {
+    display: grid;
+
+    grid-template-columns: 140px 1fr;
+
+    margin: 0;
+
+    color: var(--cor-texto);
+
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+
+.informacoes-pessoais p span {
+    color: #aebbd0;
+}
+
+
+/* ========================================
+   RESPONSIVIDADE
+======================================== */
+
+@media (max-width: 900px) {
+
+    .container-sobre {
+        flex-direction: column;
+
+        gap: 35px;
+
+        padding: 0 25px;
+    }
+
+    .image-pessoal {
+        flex: none;
+    }
+
+    .image-pessoal img {
+        width: 280px;
+        height: 320px;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo > h1 {
+        font-size: 27px;
+    }
+}
+
+
+/* ========================================
+   TELEMÓVEIS
+======================================== */
+
+@media (max-width: 600px) {
+
+    #sobre {
+        padding: 50px 0;
+    }
+
+    .tema {
+        margin-bottom: 35px;
+    }
+
+    .tema h1 {
+        font-size: 30px;
+    }
+
+    .image-pessoal img {
+        width: 240px;
+        height: 280px;
+    }
+
+    .titulo-sobre {
+        font-size: 23px;
+    }
+
+    .conteudo > h1 {
+        font-size: 24px;
+    }
+
+    .informacoes-pessoais p {
+        grid-template-columns: 110px 1fr;
+
+        font-size: 12px;
+    }
+}

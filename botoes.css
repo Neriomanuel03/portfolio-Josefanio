@@ -1,0 +1,60 @@
+/* ==========================================================================
+   BOTÕES (no hero, e em qualquer outra página)
+   ========================================================================== */
+.hero-botoes{
+    display: flex;
+    gap: 10px;
+}
+
+/*codigo do botao azul*/
+.botao {
+    background-color: #5a5f6b;
+    color: var(--cor-branca);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 8px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    transition: 0.3s ease;
+    white-space: nowrap; /* impede o texto do botão de quebrar em 2 linhas */
+    height: 30px;
+}
+
+.botao:hover{
+    background-color: #464646; 
+}
+
+.botao i {
+    position: relative;
+    font-size: 12px; 
+}
+
+/* Botão "baixar cv" (só a borda, sem fundo colorido) */
+.botao-secundario {
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border: 1px solid #5a5f6b;
+    border-radius: 8px;
+     font-size: 14px;
+    font-weight: 500;
+    
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.3s ease;
+    gap: 10px;
+}
+
+.botao-secundario:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: #464646;
+}
