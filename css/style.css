@@ -400,9 +400,8 @@ nav {
     align-items: center;
     text-align: center;
   }
-
   .cont-esquerdo p {
-    margin-left: 17.5px;
+    text-align: center; /* justify fica feio em colunas estreitas */
   }
 
   .tec-utilizadas {
