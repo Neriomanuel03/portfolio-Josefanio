@@ -402,7 +402,7 @@ nav {
   }
 
   .cont-esquerdo p {
-    text-align: left; /* justify fica feio em colunas estreitas */
+    margin-left: 17.5px;
   }
 
   .tec-utilizadas {
