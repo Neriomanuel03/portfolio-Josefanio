@@ -17,6 +17,7 @@
 }
 
 body {
+  color: var(--cor-texto);
   background-color: var(--principal);
   padding-top: var(--nav-height);
 }
@@ -43,6 +44,11 @@ body {
   color: var(--cor-branca);
   font-family: "Dancing Script", sans-serif;
   font-size: 20px;
+  transition:0.5s;
+}
+
+.logo a:hover{
+  color: var(--cor-titulo);
 }
 
 nav {
@@ -196,10 +202,41 @@ nav {
 /*inicio do hero*/
 
 #hero {
-  padding: 65px 0 70px; /*padding em cima, lados e embaixo*/
+    position: relative;
+    padding: 65px 0 70px;
+    color: #94a3b8;
+    background-color: #080910;
+    overflow: hidden;
+}
 
-  color: #94a3b8;
-  background-color: var(--principal);
+#hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            to right,
+            #080910 0%,
+            rgba(8, 9, 16, 0.35) 30%,
+            rgba(8, 9, 16, 0) 70%
+        ),
+        url("/img/arte.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 0;
+}
+
+
+#hero .container {
+    position: relative;
+    z-index: 1;
 }
 
 .container {
@@ -236,7 +273,7 @@ nav {
 
   line-height: 1.2; /* alterado de 0 pra não cortar texto */
   margin-bottom: 1px;
-  max-width: 760px;
+  max-width: 660px;
   flex: 1 1 400px; /* permite encolher/crescer e quebrar linha */
   display: flex;
   flex-direction: column;
@@ -265,12 +302,11 @@ nav {
 }
 
 .img-pessoal img {
-  align-items: flex-start;
-  width: 270px;
-  height: 315px;
-  border-radius: 10%;
+  align-items: center;
+  width: 370px;
+  height: auto;
+  border-radius: 5%;
   object-fit: cover; /*Garante que a foto não fique distorcida */
-  max-width: 100%;
 }
 
 .tec-utilizadas {
@@ -346,6 +382,13 @@ nav {
 }
 
 @media (max-width: 768px) {
+
+  #hero::after{
+      filter: brightness(0.8);
+
+    
+  }
+
   .container {
     flex-direction: column-reverse; /* imagem em cima, texto embaixo — ajusta a ordem se preferires */
     align-items: center;
@@ -375,6 +418,8 @@ nav {
   #hero {
     padding: 40px 0 50px;
   }
+
+  
 
   .container {
     margin: 0 5%;
