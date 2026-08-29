@@ -8,6 +8,8 @@
 .tema {
     text-align: center;
     margin-bottom: 20px;
+        cursor: none;
+
 }
 
 .tema h1 {
@@ -15,6 +17,7 @@
     font-size: 36px;
     font-weight: 700;
     margin: 0;
+
 }
 
 
@@ -96,15 +99,11 @@
 
 .conteudo > p {
     color: var(--cor-texto);
-
     font-size: 14px;
-
     line-height: 1.45;
 
     text-align: justify;
-
     margin: 0 0 18px;
-
     max-width: 760px;
 }
 
@@ -113,13 +112,10 @@
 
 .informacoes {
     width: 100%;
-
     background-color: #05060b;
 
     border-radius: 14px;
-
     padding: 14px 18px;
-
     box-sizing: border-box;
 }
 
@@ -128,11 +124,9 @@
 
 .informacoes > h1 {
     color: var(--cor-texto);
-
     font-size: 25px;
 
     font-weight: 500;
-
     margin: 0 0 10px;
 }
 
@@ -141,23 +135,17 @@
 
 .informacoes-pessoais {
     display: flex;
-
     flex-direction: column;
-
     gap: 7px;
 }
 
 .informacoes-pessoais p {
     display: grid;
-
     grid-template-columns: 140px 1fr;
-
     margin: 0;
 
     color: var(--cor-texto);
-
     font-size: 14px;
-
     line-height: 1.4;
 }
 

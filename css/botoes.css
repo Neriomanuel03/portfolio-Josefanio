@@ -42,7 +42,7 @@
     font-size: 14px;
     font-weight: 500;
     padding: 8px 25px;
-    border: 1px solid rgb(238, 238, 4);
+    border: 1px solid #464646;
     border-radius: 8px;
      font-size: 14px;
     font-weight: 500;
@@ -55,6 +55,6 @@
 }
 
 .botao-secundario:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-color: #464646;
+    background-color: #464646;
+    border-color:  var(--cor-branca);
 }

@@ -29,4 +29,15 @@ gsap.from("#projectos", {
   ease: "power3.out"
 });
 
+gsap.from("#Formacao", {
+  scrollTrigger: {
+    trigger: ".projectos",
+    start: "top 80%"
+  },
+  opacity: 0,
+  y: 80,
+  duration: 4,
+  ease: "power3.out"
+});
+
 

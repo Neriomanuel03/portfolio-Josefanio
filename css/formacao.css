@@ -1,0 +1,19 @@
+#formacao {
+      background-color: var(--segunda-cor);
+    padding: 65px 0 70px;
+}
+.Tema-form{
+    text-align: center;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+}
+
+.kid-img img{
+    width: 300px;
+
+    filter: grayscale(60%);
+}
