@@ -1,0 +1,72 @@
+#contactos {
+    padding: 65px 0 70px;
+}
+
+.container-contact{
+        display: flex;
+    flex-wrap: wrap; /* permite empilhar em telas pequenas */
+    justify-content: space-between;
+    margin: 0 8%;
+    align-items: flex-start;
+    gap: 40px; /* espaçamento entre as colunas quando empilham */
+}
+
+.container-contact h2{
+    margin-bottom: 30px
+}
+
+.container-contact p{
+    line-height: 1.4;
+}
+
+/* TÍTULO CONTACTOS */
+.tema-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+
+.icones-esquerda{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px
+}
+
+.icone{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 14px;
+    
+    background-color: rgba(20, 20, 35, 0.7);
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 1px 2px rgba(176, 174, 174, 0.078);
+
+    border-radius: 50%;
+
+}
+
+.info{
+     display: flex;
+    flex-direction: column;
+
+    gap: 0px;
+}
+
+.info span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info p{
+    color: var(--cor-branca);
+    font-weight: 600;
+}

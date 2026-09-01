@@ -243,7 +243,7 @@ nav {
     display: flex;
     flex-wrap: wrap; /* permite empilhar em telas pequenas */
     justify-content: space-between;
-    margin: 0 13%;
+    margin: 0 8%;
     align-items: flex-start;
     gap: 40px; /* espaçamento entre as colunas quando empilham */
 }
