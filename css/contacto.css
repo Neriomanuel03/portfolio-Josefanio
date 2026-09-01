@@ -3,12 +3,10 @@
 }
 
 .container-contact{
-        display: flex;
-    flex-wrap: wrap; /* permite empilhar em telas pequenas */
+    display: flex;
     justify-content: space-between;
-    margin: 0 8%;
-    align-items: flex-start;
-    gap: 40px; /* espaçamento entre as colunas quando empilham */
+    margin: 0 3%;
+    gap: 30px; /* espaçamento entre as colunas quando empilham */
 }
 
 .container-contact h2{
@@ -69,4 +67,13 @@
 .info p{
     color: var(--cor-branca);
     font-weight: 600;
+}
+
+
+.direito{
+ width: 100%;
+  background-color: var(--segunda-cor);
+  border-radius: 14px;
+  padding: 14px 18px;
+  box-sizing: border-box;
 }
