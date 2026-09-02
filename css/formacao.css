@@ -5,15 +5,3 @@
 .Tema-form{
     text-align: center;
 }
-
-.container-form{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 140px;
-}
-
-.kid-img img{
-    width: 300px;
-
-    filter: grayscale(60%);
-}
