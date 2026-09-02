@@ -1,22 +1,21 @@
 #projectos {
-  padding: 65px 0 70px;
+    padding: 65px 0 70px;
 }
 
 .tema-proj {
-  text-align: center;
-  margin-bottom: 55px;
+    text-align: center;
+    margin-bottom: 55px;
 }
 
 .tema-proj h1 {
-  margin: 0;
-  cursor: pointer;
+    margin: 0;
+    cursor: pointer;
 }
 
 .cartoes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    height: 370px;
     max-width: 1100px;
     margin: 5% auto;
 }
@@ -64,7 +63,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin:0 9px;
+    margin: 0 9px;
     width: 100px;
     height: 22px;
     border-radius: 5px;
@@ -72,12 +71,44 @@
     font-size: 11px;
 }
 
-.proj-botao a{
+.proj-botao a {
     color: var(--cor-texto);
     text-decoration: none;
-    margin:0 15px;
+    margin: 0 15px;
 }
 
-.botao-proj i{
-    
+
+/* RESPONSIVIDADE PROJECTOS feito pelo chatgpt */
+
+@media (max-width: 900px) {
+
+    .cartoes {
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        margin: 5% 5%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    #projectos {
+        padding: 50px 0;
+    }
+
+    .tema-proj {
+        margin-bottom: 35px;
+    }
+
+    .cartoes {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin: 0 5%;
+        gap: 25px;
+    }
+
+    .cartao {
+        width: 100%;
+    }
 }

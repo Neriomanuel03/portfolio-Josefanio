@@ -2,78 +2,164 @@
     padding: 65px 0 70px;
 }
 
-.container-contact{
+.container-contact {
     display: flex;
     justify-content: space-between;
     margin: 0 3%;
-    gap: 30px; /* espaçamento entre as colunas quando empilham */
+    gap: 30px;
 }
 
-.container-contact h2{
-    margin-bottom: 30px
+.container-contact h2 {
+    margin-bottom: 30px;
 }
 
-.container-contact p{
-    line-height: 1.4;
+.container-contact p {
+    margin-bottom: 12px;
 }
+
 
 /* TÍTULO CONTACTOS */
+
 .tema-cont {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     margin-bottom: 50px;
 }
 
-
-.icones-esquerda{
+.icones-esquerda {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
-.icone{
-    
+.icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0; /* não deixa o círculo encolher se o texto ao lado for grande */
+
+  background-color: rgba(20, 20, 35, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 1px 2px rgba(176, 174, 174, 0.078);
+  border-radius: 50%;
+}
+
+.icone i {
+  font-size: 16px; /* garante que todos os glifos têm o mesmo tamanho visual */
+}
+
+.info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0% 14px;
-    
-    background-color: rgba(20, 20, 35, 0.7);
-    backdrop-filter: blur(20px);
-
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 1px 2px rgba(176, 174, 174, 0.078);
-
-    border-radius: 50%;
-
-}
-
-.info{
-     display: flex;
-    flex-direction: column;
-
     gap: 0px;
 }
 
-.info span{
+.info span {
     font-size: 14px;
     font-weight: 400;
 }
 
-.info p{
+.info p {
     color: var(--cor-branca);
     font-weight: 600;
 }
 
 
-.direito{
- width: 100%;
-  background-color: var(--segunda-cor);
-  border-radius: 14px;
-  padding: 14px 18px;
-  box-sizing: border-box;
+/* LADO DIREITO - FORMULÁRIO */
+
+.formulario {
+    width: 50%;
+    background-color: var(--segunda-cor);
+    border-radius: 14px;
+    padding: 14px 18px;
+    box-sizing: border-box;
+}
+
+.espaco form {
+    display: flex;
+    flex-direction: column;
+}
+
+.espaco label {
+    color: var(--cor-branca);
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 1% 0;
+}
+
+.espaco input,
+.espaco textarea {
+    margin: 0 8px;
+    color: var(--cor-texto);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 9px;
+    box-sizing: border-box;
+    background-color: var(--principal);
+    margin-bottom: 15px;
+}
+
+.botao-form {
+    background-color: #5a5f6b;
+    color: var(--cor-branca);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s ease;
+    white-space: nowrap;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE CONTACTOS feito pelo chatgpt*/
+
+@media (max-width: 768px) {
+
+    #contactos {
+        padding: 50px 0;
+    }
+
+    .tema-cont {
+        margin-bottom: 35px;
+    }
+
+    .container-contact {
+        flex-direction: column;
+        margin: 0 5%;
+        gap: 40px;
+    }
+
+    .esquerdo,
+    .formulario {
+        width: 100%;
+    }
+
+    .formulario {
+        padding: 14px;
+    }
+
+    .espaco input,
+    .espaco textarea {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .espaco textarea {
+        min-height: 150px;
+    }
+
 }
