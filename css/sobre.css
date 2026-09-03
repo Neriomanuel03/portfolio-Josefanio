@@ -91,12 +91,10 @@
   max-width: 760px;
 }
 
-/*INFORMAÇÕES PESSOAIS*/
-
+/*INFORMAÇÕES PESSOAIS container*/
 .informacoes {
-  width: 100%;
+  width: 86%;
   background-color: #05060b;
-
   border-radius: 14px;
   padding: 14px 18px;
   box-sizing: border-box;

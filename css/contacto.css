@@ -2,6 +2,17 @@
     padding: 65px 0 70px;
 }
 
+/* TÍTULO CONTACTOS */
+
+.tema-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
 .container-contact {
     display: flex;
     justify-content: space-between;
@@ -10,23 +21,15 @@
 }
 
 .container-contact h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container-contact p {
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 
-/* TÍTULO CONTACTOS */
 
-.tema-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
 .icones-esquerda {
     display: flex;
@@ -68,6 +71,7 @@
 .info p {
     color: var(--cor-branca);
     font-weight: 600;
+    text-decoration: none;
 }
 
 
