@@ -1,0 +1,44 @@
+:root{
+    --principa: #424769;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: var(--principa);
+}
+
+.box{
+    padding: 35px 20px;
+    box-sizing: border-box;
+    margin: 300px 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2b53d7;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.box p{
+    color: #979db2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box input{
+    padding: 6px 15px;
+    border-radius: 10px;
+    background-color: #676f9d;
+}
+
+button{
+    padding: 4px 40px;
+    background-color:#f9b17a;
+    border-radius: 5px;
+}

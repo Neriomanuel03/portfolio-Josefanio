@@ -1,114 +1,110 @@
 #projectos {
-    padding: 65px 0 70px;
+  padding: 65px 0 70px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .tema-proj {
-    text-align: center;
-    margin-bottom: 55px;
+  text-align: center;
+  margin-bottom: 55px;
 }
 
 .tema-proj h1 {
-    margin: 0;
-    cursor: pointer;
+  margin: 0;
+  cursor: pointer;
 }
 
 .cartoes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 1100px;
-    margin: 5% auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 5% auto;
 }
 
 .cartao {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    border-radius: 15px;
-    overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 15px;
+  overflow: hidden;
 
-    background-color: var(--principal);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    transition: 0.25s ease;
+  background-color: var(--principal);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 0.25s ease;
 }
 
 .cartao:hover {
-    transform: translateY(-8px);
-    background-color: var(--segunda-cor);
+  transform: translateY(-8px);
+  background-color: var(--segunda-cor);
 }
 
 .cartao img {
-    width: 100%;
-    height: 195px;
-    object-fit: cover;
-    display: block;
-    filter: grayscale(100%);
+  width: 100%;
+  height: 195px;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%);
 }
 
 .cartao h1 {
-    color: var(--cor-branca);
-    font-size: 13px;
-    margin: 0 15px;
-    text-align: justify;
+  color: var(--cor-branca);
+  font-size: 13px;
+  margin: 0 15px;
+  text-align: justify;
 }
 
 .cartao p {
-    font-size: 12px;
-    margin: 0 15px;
-    line-height: 1.4;
+  font-size: 12px;
+  margin: 0 15px;
+  line-height: 1.4;
 }
 
 .titulo span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 9px;
-    width: 100px;
-    height: 22px;
-    border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 9px;
+  width: 100px;
+  height: 22px;
+  border-radius: 5px;
 
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .proj-botao a {
-    color: var(--cor-texto);
-    text-decoration: none;
-    margin: 0 15px;
+  color: var(--cor-texto);
+  text-decoration: none;
+  margin: 0 15px;
 }
-
 
 /* RESPONSIVIDADE PROJECTOS feito pelo chatgpt */
 
 @media (max-width: 900px) {
-
-    .cartoes {
-        grid-template-columns: repeat(2, 1fr);
-        height: auto;
-        margin: 5% 5%;
-    }
-
+  .cartoes {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin: 5% 5%;
+  }
 }
 
-
 @media (max-width: 600px) {
+  #projectos {
+    padding: 50px 0;
+  }
 
-    #projectos {
-        padding: 50px 0;
-    }
+  .tema-proj {
+    margin-bottom: 35px;
+  }
 
-    .tema-proj {
-        margin-bottom: 35px;
-    }
+  .cartoes {
+    grid-template-columns: 1fr;
+    height: auto;
+    margin: 0 5%;
+    gap: 25px;
+  }
 
-    .cartoes {
-        grid-template-columns: 1fr;
-        height: auto;
-        margin: 0 5%;
-        gap: 25px;
-    }
-
-    .cartao {
-        width: 100%;
-    }
+  .cartao {
+    width: 100%;
+  }
 }

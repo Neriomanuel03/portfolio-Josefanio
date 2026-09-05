@@ -1,7 +1,8 @@
 #formacao {
-      background-color: var(--segunda-cor);
-    padding: 65px 0 70px;
+  background-color: var(--segunda-cor);
+  padding: 65px 0 70px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
-.Tema-form{
-    text-align: center;
+.Tema-form {
+  text-align: center;
 }

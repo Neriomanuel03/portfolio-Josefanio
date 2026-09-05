@@ -1,6 +1,7 @@
 #sobre {
   background-color: var(--segunda-cor);
   padding: 65px 0 70px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* TÍTULO "SOBRE MIM"*/
@@ -20,12 +21,12 @@
 /* CONTAINER DA SECÇÃO*/
 
 .container-sobre {
-      display: flex;
-    flex-wrap: wrap; /* permite empilhar em telas pequenas */
-    justify-content: space-between;
-    margin: 0 8%;
-    align-items: flex-start;
-    gap: 40px; /* espaçamento entre as colunas quando empilham */
+  display: flex;
+  flex-wrap: wrap; /* permite empilhar em telas pequenas */
+  justify-content: space-between;
+  margin: 0 8%;
+  align-items: flex-start;
+  gap: 40px; /* espaçamento entre as colunas quando empilham */
 }
 
 /* IMAGEM PESSOAL*/
@@ -130,7 +131,7 @@
 
 .informacoes-pessoais p span {
   color: #aebbd0;
-   min-width: 10;
+  min-width: 10;
   overflow-wrap: break-word;
   word-break: break-word;
 }
