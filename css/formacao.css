@@ -1,8 +1,72 @@
-#formacao {
+#formacao-experiencia {
   background-color: var(--segunda-cor);
   padding: 65px 0 70px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 .Tema-form {
   text-align: center;
+    margin-bottom: 55px;
+
+}
+
+.container-form{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3%;
+  gap: 10px;
+}
+
+.formacao h2{
+  margin-bottom: 20px;
+  gap: 10px;
+  }
+
+
+.informacao-forma{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.informacao-experiencia{
+     display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.informacao-academica{
+      max-width: 650px;
+
+}
+
+
+.paragrafo{
+  text-align: justify;
+}
+
+.subtema {
+  gap: 10px;
+  font-size: 18px;
+}
+
+.circulo {
+    width: 18px;
+    height: 18px;
+    border: 3px solid #3b82f6;
+    border-radius: 50%;
+    margin-top: 5px;
+    position: relative;
+}
+
+/* círculo interno */
+.circulo::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #3b82f6;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

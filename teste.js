@@ -11,7 +11,7 @@ console.log("Ola o teu nome é " +nome + " e tens " +idade + "anos.");
 
 console.log(typeof nome); */
 
-const numero = prompt("Digite um numero: ");
+const numero = Number (prompt("Digite um numero: "));
     if (numero % 2 === 0){
         console.log("O numero é par");
     } else{

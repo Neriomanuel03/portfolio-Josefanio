@@ -1,6 +1,5 @@
 #contactos {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-
   padding: 65px 0 70px;
 }
 
@@ -75,10 +74,10 @@
 /* LADO DIREITO - FORMULÁRIO */
 
 .formulario {
-  width: 50%;
+  width: 40%;
   background-color: var(--segunda-cor);
   border-radius: 14px;
-  padding: 14px 18px;
+  padding: 19px 18px;
   box-sizing: border-box;
 }
 
