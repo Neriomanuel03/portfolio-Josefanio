@@ -28,6 +28,16 @@
     margin-bottom: 20px;
 }
 
+.informacao-academica p{
+text-align: justify;
+margin-bottom: 12px;
+}
+
+.experiência-prof h2{
+ margin-bottom: 20px;
+  gap: 10px
+}
+
 .informacao-experiencia{
      display: flex;
     gap: 10px;
