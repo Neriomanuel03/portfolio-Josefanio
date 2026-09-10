@@ -6,14 +6,18 @@ function enviar()
     alert(valueInput)
 }*/
 
-/* let nome ="Nerio";
+/* let nome ="Nerio ";
 let idade=23;
-console.log("Ola o teu nome é " +nome + " e tens " +idade + "anos.");
+const nome_c =(nome + idade);
+console.log(nome_c);
 
-console.log(typeof nome); */
+console.log(nome.length); */
+
 
 /* o resto da divisao
- *//* const numero = Number (prompt("Digite um numero: "));
+ */
+
+const numero = Number (prompt("Digite um numero: "));
     if (numero % 2 === 0){
         console.log("O numero é par");
     } else{
@@ -27,6 +31,7 @@ let dobro = numero * 2;
 console.log(dobro); */
 
 /* 4 operações */
+/* 
 let n_1 = Number (prompt("Digite o primeiro numero: "));
 let n_2 = Number (prompt("Digite o segundo numero: "));
 let soma = (n_1 + n_2);
@@ -39,5 +44,8 @@ console.log("O segundo numero é: " +n_2);
 console.log("soma é: " +soma);
 console.log("Subbtração: " +sub);
 console.log("Multiplicacao: " +time);
-console.log("Divisão: " +div);
+console.log("Divisão: " +div); */
 
+/* let numero = 3 ;
+numero ++;
+console.log(numero) */
