@@ -5,7 +5,7 @@
   position: relative;
   padding: 65px 0 70px;
   color: #94a3b8;
-  background-color: # ;
+  background-color: #080910;
   overflow: hidden;
 }
 
@@ -139,7 +139,7 @@
 
   box-sizing: border-box;
 
-  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 1.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -149,13 +149,19 @@
 
 .tecnologias .tecnologia:hover {
   transform: translateY(-10px);
+  
 }
 
 .tecnologia img {
-  filter: grayscale(500%);
+  filter: grayscale(100%); /* 100% já é suficiente para deixar totalmente preto e branco */
   width: 18px;
   height: 20px;
   object-fit: contain;
+  transition: filter 0.9s ease; /* Adiciona uma transição suave ao voltar a cor */
+}
+
+.tecnologia:hover img {
+  filter: grayscale(0%);
 }
 
 .tecnologia span {

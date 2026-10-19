@@ -41,3 +41,5 @@ gsap.from("#Formacao", {
 });
 
 
+const botao = document.querySelector("#botao-secundario");
+botao.

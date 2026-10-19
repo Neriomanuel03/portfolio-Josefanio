@@ -46,8 +46,12 @@
   object-fit: cover;
   display: block;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
-
+.cartao:hover img {
+ 
+  filter: grayscale(0%);
+}
 .cartao h1 {
   color: var(--cor-branca);
   font-size: 13px;
